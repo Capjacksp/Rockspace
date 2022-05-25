@@ -31,14 +31,14 @@ function App() {
       <ScrollToTop></ScrollToTop>
         <Header></Header>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/all-tools' element={<Alltools/>}></Route>
-        <Route path='/contact' element={<Contact/>}></Route>
-        <Route path='/aboutus' element={<Aboutus/>}></Route>
-        <Route path='/rocket-tools' element={<Rockettool/>}></Route>
-        <Route path='/space-tools' element={<Spacetool/>}></Route>
-        <Route path='/allrocket' element={<Allrocket/>}></Route>
-        <Route path='/rocket-comparator' element={<Comparerock/>}></Route>
+        <Route path='/Rockspce/' element={<Home/>}></Route>
+        <Route path='/Rockspce/all-tools' element={<Alltools/>}></Route>
+        <Route path='/Rockspce/contact' element={<Contact/>}></Route>
+        <Route path='/Rockspce/aboutus' element={<Aboutus/>}></Route>
+        <Route path='/Rockspce/rocket-tools' element={<Rockettool/>}></Route>
+        <Route path='/Rockspce/space-tools' element={<Spacetool/>}></Route>
+        <Route path='/Rockspce/allrocket' element={<Allrocket/>}></Route>
+        <Route path='/Rockspce/rocket-comparator' element={<Comparerock/>}></Route>
       </Routes>
         <Footer></Footer>
        </BrowserRouter> 
