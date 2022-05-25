@@ -17,6 +17,7 @@ import Contact from './component/contact/contact';
 import data from './data.json'
 import ScrollToTop from './component/scrolltotop/scrolltotop';
 import Alltools from './component/alltools/alltools';
+import NotFoundPage from './component/notfoundpage/Notfoundpage';
 
 function App() {
 

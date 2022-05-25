@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BrowserRouter, Routes, Route, Link,outlet } from "react-router-dom";
 
 export default function NotFoundPage(){
     return(
