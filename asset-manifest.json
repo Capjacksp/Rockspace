@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rockspace/static/css/main.6ba95744.css",
-    "main.js": "/Rockspace/static/js/main.6dbf924d.js",
+    "main.js": "/Rockspace/static/js/main.7c1ad9a1.js",
     "static/js/787.d39be145.chunk.js": "/Rockspace/static/js/787.d39be145.chunk.js",
     "static/media/james-webb-space-telescope.png": "/Rockspace/static/media/james-webb-space-telescope.373c777dcbcdbc5b1ae2.png",
     "static/media/millennium-falcon.png": "/Rockspace/static/media/millennium-falcon.a7834f18e7b23bd79995.png",
@@ -340,11 +340,11 @@
     "index.html": "/Rockspace/index.html",
     "static/media/favicon.ico": "/Rockspace/static/media/favicon.6a4763a428606787594b.ico",
     "main.6ba95744.css.map": "/Rockspace/static/css/main.6ba95744.css.map",
-    "main.6dbf924d.js.map": "/Rockspace/static/js/main.6dbf924d.js.map",
+    "main.7c1ad9a1.js.map": "/Rockspace/static/js/main.7c1ad9a1.js.map",
     "787.d39be145.chunk.js.map": "/Rockspace/static/js/787.d39be145.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ba95744.css",
-    "static/js/main.6dbf924d.js"
+    "static/js/main.7c1ad9a1.js"
   ]
 }
