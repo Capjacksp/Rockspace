@@ -32,7 +32,7 @@ function App() {
       <ScrollToTop></ScrollToTop>
         <Header></Header>
       <Routes>
-        <Route path='/Rockspce/' element={<Home/>}></Route>
+        <Route path='/Rockspce' element={<Home/>}></Route>
         <Route path='/Rockspce/all-tools' element={<Alltools/>}></Route>
         <Route path='/Rockspce/contact' element={<Contact/>}></Route>
         <Route path='/Rockspce/aboutus' element={<Aboutus/>}></Route>
