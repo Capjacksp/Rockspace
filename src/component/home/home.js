@@ -55,7 +55,7 @@ export default function Home(){
         <Link to={'/Rockspace/allrocket'} style={{textDecoration:'none'}}><li>All rockets</li></Link>
         <Link to={'/Rockspace/rocket-comparator'} style={{textDecoration:'none'}}><li>Rocket comparator</li></Link>
         <div className="btn">
-        <Link to={'/Rockspace/rocket-tools'} style={{textDecoration:'none'}}><a>All tools</a></Link>
+        <Link to={'/Rockspace/rocket-tools'} style={{textDecoration:'none'}}><a>Rocket tools</a></Link>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ export default function Home(){
         <p>These tools are use to calculate complex Astronomy and space science equtions. </p>
         <p>Available tools</p>
         <div className="btn">
-        <Link to={'/Rockspace/space-tools'} style={{textDecoration:'none'}}><a>All tools</a></Link>
+        <Link to={'/Rockspace/space-tools'} style={{textDecoration:'none'}}><a>Space tools</a></Link>
         </div>
       </div>
     </div>
