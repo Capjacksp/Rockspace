@@ -27,10 +27,10 @@ export default function Footer() {
           <h2>Rocket Tools</h2>
           <ul>
             <li>
-            <Link to={'/Rockspce/allrocket'} style={{textDecoration:'none'}}> <a href="">All Rocket </a></Link>
+            <Link to={'/Rockspace/allrocket'} style={{textDecoration:'none'}}> <a href="">All Rocket </a></Link>
             </li>
             <li>
-            <Link to={'/Rockspce/rocket-comparator'} style={{textDecoration:'none'}}><a href="">Rocket comparator</a></Link>
+            <Link to={'/Rockspace/rocket-comparator'} style={{textDecoration:'none'}}><a href="">Rocket comparator</a></Link>
             </li>
         
             <li>

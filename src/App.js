@@ -32,14 +32,14 @@ function App() {
       <ScrollToTop></ScrollToTop>
         <Header></Header>
       <Routes>
-        <Route path='/Rockspce' element={<Home/>}></Route>
-        <Route path='/Rockspce/all-tools' element={<Alltools/>}></Route>
-        <Route path='/Rockspce/contact' element={<Contact/>}></Route>
-        <Route path='/Rockspce/aboutus' element={<Aboutus/>}></Route>
-        <Route path='/Rockspce/rocket-tools' element={<Rockettool/>}></Route>
-        <Route path='/Rockspce/space-tools' element={<Spacetool/>}></Route>
-        <Route path='/Rockspce/allrocket' element={<Allrocket/>}></Route>
-        <Route path='/Rockspce/rocket-comparator' element={<Comparerock/>}></Route>
+        <Route path='/Rockspace' element={<Home/>}></Route>
+        <Route path='/Rockspace/all-tools' element={<Alltools/>}></Route>
+        <Route path='/Rockspace/contact' element={<Contact/>}></Route>
+        <Route path='/Rockspace/aboutus' element={<Aboutus/>}></Route>
+        <Route path='/Rockspace/rocket-tools' element={<Rockettool/>}></Route>
+        <Route path='/Rockspace/space-tools' element={<Spacetool/>}></Route>
+        <Route path='/Rockspace/allrocket' element={<Allrocket/>}></Route>
+        <Route path='/Rockspace/rocket-comparator' element={<Comparerock/>}></Route>
         <Route path="*" element={<NotFoundPage/>} />
       </Routes>
         <Footer></Footer>
