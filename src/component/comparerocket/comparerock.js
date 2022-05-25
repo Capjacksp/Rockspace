@@ -105,7 +105,7 @@ function Comparerock() {
     <div className="Compare">
         <div className="select-box" style={{border:'5px solid'+randomColor()}}>
         <h2>Multi rocket comparetor</h2>
-        <h3>You can select multiple rocket for comaresion</h3>
+        <h3>You can select multiple rocket for comparison.</h3>
         <div className="select-btn">
       <select onChange={(e) => setSvalue1(e.target.value)}>
       <option>--select--</option>
@@ -151,7 +151,7 @@ function Comparerock() {
        
       <div>
         <br/>
-         <h3 style={{color:randomColor()}}>Height comaresion</h3>
+         <h3 style={{color:randomColor()}}>Height comparison</h3>
         <BarChart chartData={ChartData} />
       </div>
 
@@ -171,7 +171,7 @@ function Comparerock() {
         <PayloadGto data={Passdata}/>
       </div>
       <br/>
-      <h3 style={{color:randomColor()}}>Full comaresion (In table)</h3>
+      <h3 style={{color:randomColor()}}>Full comparison (In table)</h3>
       <div className="rocket-table">
         <table className="table">
           <thead className="thead">
