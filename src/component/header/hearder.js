@@ -76,7 +76,7 @@ export default function Header() {
   progress: undefined,});
   return (
     <header className="Header">
-      <Link to={'/'} style={{textDecoration:'none'}}><a className="Logo" alt="logo" >Rockspace</a></Link>
+      <Link to={'/Rockspce'} style={{textDecoration:'none'}}><a className="Logo" alt="logo" >Rockspace</a></Link>
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={350}
@@ -84,9 +84,9 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav" ref={domNode}>
-        <Link to={'/'} style={{textDecoration:'none'}}><a onClick={toggleNav}>Home</a></Link>
-        <Link to={'/all-tools'} style={{textDecoration:'none'}}><a onClick={toggleNav}>All Tools</a></Link>
-        <Link to={'/aboutus'} style={{textDecoration:'none'}}><a onClick={toggleNav}>About-us</a></Link>
+        <Link to={'/Rockspce'} style={{textDecoration:'none'}}><a onClick={toggleNav}>Home</a></Link>
+        <Link to={'/Rockspce/all-tools'} style={{textDecoration:'none'}}><a onClick={toggleNav}>All Tools</a></Link>
+        <Link to={'/Rockspce/aboutus'} style={{textDecoration:'none'}}><a onClick={toggleNav}>About-us</a></Link>
           <button onClick={notify}>Blog</button>
         </nav>
       </CSSTransition>

@@ -52,10 +52,10 @@ export default function Home(){
         <h2>Rocket Science Tools</h2>
         <h3>These tools are use to calculate complex rocket science equtions. </h3>
         <p>Available tools</p>
-        <Link to={'/allrocket'} style={{textDecoration:'none'}}><li>All rockets</li></Link>
-        <Link to={'/rocket-comparator'} style={{textDecoration:'none'}}><li>Rocket comparator</li></Link>
+        <Link to={'/Rockspce/allrocket'} style={{textDecoration:'none'}}><li>All rockets</li></Link>
+        <Link to={'/Rockspce/rocket-comparator'} style={{textDecoration:'none'}}><li>Rocket comparator</li></Link>
         <div className="btn">
-        <Link to={'/rocket-tools'} style={{textDecoration:'none'}}><a>All tools</a></Link>
+        <Link to={'/Rockspce/rocket-tools'} style={{textDecoration:'none'}}><a>All tools</a></Link>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ export default function Home(){
         <p>These tools are use to calculate complex Astronomy and space science equtions. </p>
         <p>Available tools</p>
         <div className="btn">
-        <Link to={'/space-tools'} style={{textDecoration:'none'}}><a>All tools</a></Link>
+        <Link to={'/Rockspce/space-tools'} style={{textDecoration:'none'}}><a>All tools</a></Link>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ export default function Rockettool(){
         <div className="too-body">
             <h1 style={{color:randomColor()}}>Available tools</h1>
         <div className="too">
-        <Link to={'/allrocket'} style={{textDecoration:'none'}}><a> 
+        <Link to={'/Rockspce/allrocket'} style={{textDecoration:'none'}}><a> 
             <div className="too-btn" >
             <div className="too-btn-img">
                     <img src={require('../pictures/V2.png')} alt="Image of image comparetor" />
@@ -27,7 +27,7 @@ export default function Rockettool(){
                     <h2>All Rockets</h2>
                 </div>
             </div></a></Link>
-            <Link to={'/rocket-comparator'} style={{textDecoration:'none'}}><a> 
+            <Link to={'/Rockspce/rocket-comparator'} style={{textDecoration:'none'}}><a> 
             <div className="too-btn" >
             <div className="too-btn-img">
                     <img src={require('../pictures/rocketco1.png')} alt="Image of image comparetor" />
