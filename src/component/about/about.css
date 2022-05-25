@@ -1,0 +1,63 @@
+.about-us-head{margin-top:100px;}
+.about-us-head h1{
+    margin:10px 10%;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    
+}
+
+
+.about-us h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: #00c9cc;
+    margin-top: 50px;
+}
+.about-us h3{
+    margin:20px 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+.space-rocket::before {
+    content: "Space";
+    animation: animate infinite 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes animate {
+  
+    0% {
+    transform: rotate(0);
+    content: "Rocket";
+    }
+     100% {
+    transform: rotate(360deg);
+    content: "Space";
+  }
+  }
+
+ 
+.about-us ul li{
+    margin:20px 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 80;
+
+} 
+.about-developer{
+    padding-bottom: 20px;
+}
+.about-developer h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:20px 10%;
+}
+.about-developer h3, p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:20px 10%;
+}
