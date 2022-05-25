@@ -39,6 +39,7 @@ function App() {
         <Route path='/Rockspce/space-tools' element={<Spacetool/>}></Route>
         <Route path='/Rockspce/allrocket' element={<Allrocket/>}></Route>
         <Route path='/Rockspce/rocket-comparator' element={<Comparerock/>}></Route>
+        <Route path="*" component={NotFoundPage} />
       </Routes>
         <Footer></Footer>
        </BrowserRouter> 

@@ -10,7 +10,7 @@ export default function Aboutus(){
     return(
         <div >
             <div className='about-us-head' style={{textAlign:'center'}}>
-            <img src={require('../pictures/images.jpg')} alt="Image of image comparetor" />
+            <img src={require('../pictures/images.jpg')} alt="Image of kidu" />
                 <h1 style={{color:randomColor()}}> We are Rockspace ..</h1>
                 <h1 style={{color:randomColor()}}> Let's Rock it <img src={require('../images/rock-and-roll.png')} style={{width:'30px'}}/></h1>
             </div>
