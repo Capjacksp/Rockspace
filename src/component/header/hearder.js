@@ -87,7 +87,7 @@ export default function Header() {
         <Link to={'/Rockspace'} style={{textDecoration:'none'}}><a onClick={toggleNav}>Home</a></Link>
         <Link to={'/Rockspace/all-tools'} style={{textDecoration:'none'}}><a onClick={toggleNav}>All Tools</a></Link>
         <Link to={'/Rockspace/aboutus'} style={{textDecoration:'none'}}><a onClick={toggleNav}>About-us</a></Link>
-          <button onClick={"https://capjacksp.github.io/Rockspace/"} >Blog</button>
+          <button onClick="location.href='https://rockspace-blogs.netlify.app/';" >Blog</button>
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="menu">
