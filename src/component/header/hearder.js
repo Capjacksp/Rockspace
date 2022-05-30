@@ -9,7 +9,6 @@ import { CSSTransition } from "react-transition-group";
 
 
 
-
 let useClickOutside = (handler) => {
   let domNode = useRef();
 
@@ -38,7 +37,6 @@ let useClickOutside = (handler) => {
 export default function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 900px)");
     mediaQuery.addListener(handleMediaQueryChange);
@@ -66,6 +64,9 @@ export default function Header() {
   });
   
 
+
+  
+
   
   const notify = () => toast.info("In development",{position: "top-center",
   autoClose: 5000,
@@ -87,7 +88,8 @@ export default function Header() {
         <Link to={'/Rockspace'} style={{textDecoration:'none'}}><a onClick={toggleNav}>Home</a></Link>
         <Link to={'/Rockspace/all-tools'} style={{textDecoration:'none'}}><a onClick={toggleNav}>All Tools</a></Link>
         <Link to={'/Rockspace/aboutus'} style={{textDecoration:'none'}}><a onClick={toggleNav}>About-us</a></Link>
-          <button onClick="location.href='https://rockspace-blogs.netlify.app/';" >Blog</button>
+        <button >
+          <a href='https://rockspace-blogs.netlify.app/' target="_blank">Blog</a></button>
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="menu">
